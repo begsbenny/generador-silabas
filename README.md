@@ -6,6 +6,15 @@ Se creó y utilizó en un taller de lectoescritura con personas adultas sin esco
 
 ![Generador de Sílabas en modo coloreado](docs/captura.png)
 
+## Descarga (Windows)
+
+Si solo quieres usar el programa sin instalar Python ni la fuente Andika:
+
+1. Descarga el archivo `.zip` desde la [última versión en Releases](https://github.com/begsbenny/generador-silabas/releases/latest).
+2. Descomprime la carpeta `GeneradorSilabas` y abre `GeneradorSilabas.exe` (mantén todos los archivos juntos dentro de la misma carpeta).
+
+> **Nota:** Windows SmartScreen puede mostrar un aviso porque el ejecutable no tiene firma digital. Pulsa **Más información** y luego **Ejecutar de todas formas**.
+
 ## Uso
 
 - **Cantidad de sílabas:** cuántas sílabas tiene cada palabra (por defecto, 3).
