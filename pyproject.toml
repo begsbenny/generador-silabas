@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generador-silabas"
+dynamic = ["version"]
+description = "Generador de sílabas aleatorias (CV / CCV) con zoom y modo coloreado"
+readme = "README.md"
+authors = [{ name = "Benny Ronaldo Rojas Villadeza" }]
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+requires-python = ">=3.10"
+dependencies = ["customtkinter>=5.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyinstaller>=6"]
+
+[project.gui-scripts]
+silabas = "silabas.__main__:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "silabas.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+silabas = ["assets/*", "assets/fonts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
