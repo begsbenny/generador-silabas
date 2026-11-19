@@ -7,7 +7,7 @@ Ver README.md (uso), CHANGELOG.md (historial) y AGENTS.md (guía para colaborar)
 
 __version__ = "1.2.1"
 __author__ = "Benny Ronaldo Rojas Villadeza"
-__date__ = "2026-11-18"
+__date__ = "2026-11-19"
 __license__ = "MIT"
 _ANIO_INICIO = 2025
 __copyright__ = f"© {_ANIO_INICIO}–{__date__[:4]} {__author__}"

@@ -13,6 +13,12 @@ license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
 requires-python = ">=3.10"
 dependencies = ["customtkinter>=5.2"]
 
+[project.urls]
+Homepage = "https://github.com/begsbenny/generador-silabas"
+Repository = "https://github.com/begsbenny/generador-silabas"
+Issues = "https://github.com/begsbenny/generador-silabas/issues"
+Changelog = "https://github.com/begsbenny/generador-silabas/blob/main/CHANGELOG.md"
+
 [project.optional-dependencies]
 dev = ["pytest>=8", "pyinstaller>=6"]
 

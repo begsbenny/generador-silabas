@@ -3,7 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## [1.2.1] - 2026-11-18
+## [1.2.1] - 2026-11-19
 
 ### Corregido
 - Coloreado de los grupos `qu` y `gu`: ahora se dibujan junto a su vocal (`e` o `i`) con el color de esa vocal.

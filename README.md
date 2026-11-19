@@ -2,7 +2,9 @@
 
 Genera palabras con sílabas al azar (consonante + vocal) para proyectarlas en pantalla grande.
 
-Está pensado para talleres de lectoescritura con personas adultas sin escolaridad previa: varias personas pueden participar sin que alguien tenga que escribir las sílabas en la pizarra. La dificultad se ajusta eligiendo qué consonantes se usan.
+Se creó y utilizó en un taller de lectoescritura con personas adultas sin escolaridad previa, como apoyo específico para el momento de práctica de lectura de sílabas dentro de un proceso más amplio. Cubrió la necesidad de proyectar combinaciones nuevas al instante para que varias personas participaran sin depender de escribir cada ejemplo en la pizarra, ajustando la dificultad según las consonantes trabajadas.
+
+![Generador de Sílabas en modo coloreado](docs/captura.png)
 
 ## Uso
 
@@ -16,6 +18,8 @@ Está pensado para talleres de lectoescritura con personas adultas sin escolarid
 
 La palabra se dibuja con la fuente Andika, que viaja dentro del programa: no hace falta instalarla.
 
+![Generador de Sílabas sin color y con grupos consonánticos](docs/captura-avanzado.png)
+
 **Privacidad:** el programa funciona sin conexión y no guarda ni envía datos de quienes participan.
 
 ## Instalación y ejecución
@@ -23,6 +27,8 @@ La palabra se dibuja con la fuente Andika, que viaja dentro del programa: no hac
 Pensado para Windows. Requiere Python 3.10 o superior para ejecutarlo desde el código.
 
 ```bash
+git clone https://github.com/begsbenny/generador-silabas.git
+cd generador-silabas
 python -m venv .venv
 .venv\Scripts\activate
 pip install -e ".[dev]"
@@ -59,6 +65,7 @@ src/silabas/
 ├── recursos.py   Carga de la fuente Andika y del icono
 ├── __main__.py   Arranque
 └── assets/       Icono y fonts/ (Andika Regular y Bold, con su licencia)
+docs/             Capturas de pantalla
 tests/            Pruebas
 scripts/          build_exe.py
 run.py            Lanzador (desarrollo y PyInstaller)
